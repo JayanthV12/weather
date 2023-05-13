@@ -68,7 +68,7 @@ class App extends Component{
         </div>
         <div className='content'>
           <p className='type-heading'>Longitude</p>
-          <p className='type-para'>{longitude}</p>
+          <p className='type-para1'>{longitude}</p>
         </div>
         </div>
     </div>
