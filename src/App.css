@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.weather-container{
+  background-image: url("https://ik.imagekit.io/aqitzrbrj1/224066-delhi.avif?updatedAt=1683955593951");
+  height: 100vh;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.inputEl{
+  margin-top: 20px;
+  height: 60px;
+  
+  width: 500px;
+  background-color: transparent;
+  border-radius: 20px;
+  color: white;
+  font-size: 24px;
+  padding-left: 20px;
+}
+@media screen and (max-width:768px) {
+  .inputEl{
+    width: 200px;
+  }
+  
+}
+.searchButton{
+  background-color: transparent;
+  height: 60px;
+  border-width: 0px;
+
+}
+
+.search-icon{
+  height: 100px;
+  width: 30px;
+  margin-top: 2px;
+  align-self: center;
+}
+@media screen and (max-width:768px) {
+  .search-icon{
+    height: 100px;
+    width: 30px;
+    align-self: center;
+  }
+}
+.weather-heading{
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin-top: 20px;
+  
+}
+.location{
+  text-align: left;
+  
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+  font-family: "Roboto";
+}
+.input-container{
+  display: flex;
+  flex-direction: row;
+
+}
+.content-container{
+  display: flex;
+  flex-direction: row;
+}
+.content-container1{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  margin-right: 23px;
+}
+.output-container{
+  background-color: transparent;
+  max-width: 800px;
+  border-radius: 20px;
+  border-width: 4px;
+  border-color: black;
+  margin-top: 300px;
+  height: 100px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+.para{
+  font-family: "Roboto";
+  font-size: 15px;
+  color: white;
+  
+}
+
+.type-heading{
+  font-family: "Roboto";
+  font-size: 20px;
+  color: sandybrown;
+}
+.type-para{
+  font-family: "Roboto";
+  font-size: 16px;
+  color: white;
+}
